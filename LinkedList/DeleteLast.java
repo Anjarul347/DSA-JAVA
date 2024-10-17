@@ -69,7 +69,7 @@ public class DeleteLast {
         list.addList(2);
         list.addList(3);
         list.addList(4);
-        // list.addList(5) ;
+        list.addList(5) ;
         list.delLast();
         list.printList();
     }
