@@ -10,7 +10,7 @@ public class reverseStringUsingMethod {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a string to reverse the String:-");
         StringBuilder sb=new StringBuilder("Anjar");
-
+        sc.close();
         for(int i=0;i>sb.length()/2;i++){
             int front = i;
             int back = sb.length()-1-i;
