@@ -45,6 +45,7 @@ public class AddToEnd {
             System.out.print(currNode.Data + "--> ");
             currNode=currNode.Next;
         }
+        System.out.println("NULL");
     }
 
 

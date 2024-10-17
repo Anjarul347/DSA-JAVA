@@ -36,6 +36,7 @@ public class AddToStart {
             System.out.print(currNode.Data + "--> ");
             currNode=currNode.Next;
         }
+        System.out.println("NULL");
     }
 
     public static void main(String[] args) {
