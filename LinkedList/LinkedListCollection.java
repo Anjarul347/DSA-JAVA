@@ -27,6 +27,16 @@ public class LinkedListCollection {
                 System.out.print(List.get(i)+"-->");
             }
             System.out.println("Null");
+
+
+            //Delete frome first
+            List.removeFirst();
+            System.out.println(List);
+
+            //Delete from last
+            List.removeLast();
+            System.out.println(List);
+
     }
     
 }
