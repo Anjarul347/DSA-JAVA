@@ -37,6 +37,11 @@ public class LinkedListCollection {
             List.removeLast();
             System.out.println(List);
 
+            // Delete element frome the given location
+
+            List.remove(3);
+            System.out.println(List);
+
     }
     
 }
