@@ -20,6 +20,13 @@ public class LinkedListCollection {
 
             // size of the list
             System.out.println(List.size());
+
+            //iterate List using for loop
+
+            for(int i=0;i<List.size();i++){
+                System.out.print(List.get(i)+"-->");
+            }
+            System.out.println("Null");
     }
     
 }
