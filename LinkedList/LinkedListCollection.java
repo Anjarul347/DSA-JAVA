@@ -15,6 +15,9 @@ public class LinkedListCollection {
             List.addLast("3");
             System.out.println(List);
 
+            List.add("10");
+            System.out.println(List);
+
             // size of the list
             System.out.println(List.size());
     }
