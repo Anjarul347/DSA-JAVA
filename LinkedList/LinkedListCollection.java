@@ -42,6 +42,9 @@ public class LinkedListCollection {
             List.remove(3);
             System.out.println(List);
 
+            List.removeAll(List);
+            System.out.println(List);
+
     }
     
 }
